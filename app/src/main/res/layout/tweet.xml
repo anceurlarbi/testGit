@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:padding="10dp" android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <ImageView android:layout_height="70dp" android:layout_width="70dp" android:src="@drawable/tweet" android:id="@+id/image"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/auteur" android:textStyle="bold" android:layout_alignTop="@id/image" android:layout_toRightOf="@id/image" android:layout_marginLeft="10dp" android:textColor="@android:color/black"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/tweet" android:textColor="@android:color/black" android:layout_below="@id/auteur" android:layout_alignLeft="@id/auteur"/>
+
+</RelativeLayout>
